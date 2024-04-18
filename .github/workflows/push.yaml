@@ -13,8 +13,6 @@ jobs:
       - name: Vet
         run: |
           go vet ./...
-  name: golang-pipeline
-on: push
 jobs:
   test:
     runs-on: ubuntu-latest
